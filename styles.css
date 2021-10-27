@@ -1,144 +1,104 @@
-.top-container{
-    background-color: #fce2db;
-    margin:0;
-    position: relative;
-    padding: 250px 0px;
+
+
+
+.links{
+  color: white;
+  padding-left: 50px;
+}
+
+.links a:hover {
+  color: white;
+}
+
+.links a.active {
   
+  color: white;
+}
+
+
+
+.header{
+    background-color: #ef5d57;
+    color: white;
+    font-size: 20px;
   }
-  body{
-    margin:0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
   
+  .footer{
+    background-color: #ef5d57;
+    color: rgb(252, 252, 252);
+    height:60px;
+    margin-bottom: 0px;
+    padding: 15px 0 0 10px;
   }
-  p{
-    line-height: 2;
-  }
-  h1{
-    text-align:center;
-    margin:50px auto 0 auto;
-    font-family: 'Rouge Script', cursive;
-    font-size: 8.625rem;
-    color: #e4a3d4;
-  
-  }
-  h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-     color: #c295d8;
-     font-weight: normal;
-  }
-  h3{
-    font-family: 'Montserrat', sans-serif;
-    color:#c295d8;
-    left: auto;
-  }
-  a{
-    color: #552244;
-    margin: auto 30px 50px 30px;
-    text-decoration: none;
-  }
-  a:hover{
-    color: #c295d8;
+  .img{
+    margin:50px 150px 20px 50px; 
+    
+    }
+
+  .leftcol{
+    padding: 50px 0px;
+    border-right: 2px solid #ef5d57;
+    height: 600px;
   }
 
-  .subtitle{
-    text-align:center;
-     
+  .rightcol{
+    background-color: #EDEDED;
   }
 
-  .skill-row{
-    display: inline-block;
-    width: 50%;
-    margin:30px auto 30px auto;
-    text-align: left;
-  
-  }
-  
-  .middle-container{
-    margin-top: 100px;
-  }
-  .bottom-container{
-    background-color:#ad62aa;
-  
-    padding-top: 30px;
-    padding-bottom: 30px;
-  
-  }
-  
-  .top{
-    width: 100%;
-    height: 105%;;
-    position:absolute;
-    left:0px;
-    bottom:0cm;
-  
-  }
-  .code{
-    width: 25%;
-    float:left;
-    margin-right: 30px;
-  
-  
-  }
-  .hobbies{
-    width: 25%;
-    float: right;
-    margin-left: 30px;
-  
-  }
-  .girl{
-    width: 15%
-  }
-  
-  .intro{
-    width:30%;
-    text-align: center;
-      margin:30px auto 30px auto;
-  }
-  hr{
-    border-style: none;
-    border-top-style: dotted;
-    border-color:#eab9c9;
-    border-width: 5px;
-    width: 5%;
-  }
+.text{
+  color: #595260;
+  font-size: 20px;
+  text-align: justify;
+  padding-left: 60px;
+  padding-top: 15px;
+}
+.text:hover{
+  color: #ef5d57;
+}
 
+.active{
+  color: #ef5d57;
+}
   
-  .btn
-    {
-  
-    font-family: 'Montserrat', sans-serif;
-    color: #FFFFDD ;
-    font-size: 16px;
-    box-shadow: 1px 1px 1px #E4A3D4;
-    padding: 10px 25px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    border: 2px solid #FFFDFA;
-    background: #E4A3D4;
-    background: linear-gradient(top,  #E4A3D4,  #C295D8);
-    background: -ms-linear-gradient(top,  #E4A3D4,  #C295D8);
-    background: -webkit-gradient(linear, left top, left bottom, from(#E4A3D4), to(#C295D8));
-    background: -moz-linear-gradient(top,  #E4A3D4,  #C295D8);
-  
-  }
-  .btn:hover {
-    color: #3C2E42 !important;
-    background: #FFB6B9;
-    background: linear-gradient(top,  #FFB6B9,  #F6EEC7);
-    background: -ms-linear-gradient(top,  #FFB6B9,  #F6EEC7);
-    background: -webkit-gradient(linear, left top, left bottom, from(#FFB6B9), to(#F6EEC7));
-    background: -moz-linear-gradient(top,  #FFB6B9,  #F6EEC7);
-  }
-  .contact-me{
-    margin: 100px auto 100px auto;
-  }
-  .credit{
-    margin-top: 50px;
-    font-size: 0.75em;
-  }
-  .end-para{
-    margin: 50px auto 50px auto;
-  }
+#space{
+  padding-left: 250px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: .5rem;
+  padding-left: 5rem;
+}
+
+.heading{
+  color: #ef5d57;
+  font-size: 1.5rem;
+}
+
+.content{
+  color: #595260;
+  font-size: 1.2rem;
+}
+
+.container{
+  padding: 70px 0 0 150px;
+}
+
+.tlinks{
+  color: #595260;
+  margin-left: 30px;
+}
+
+
+
+
